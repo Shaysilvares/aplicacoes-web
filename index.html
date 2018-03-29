@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<script type="text/javascript" src="js/script.js"></script>
 		<link rel="stylesheet" href="css/main.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	</head>
 	
 	<body>		
 		<label>Adicionar itens na cesta</label>
 		</br>
-		<input id="cesta" type="text"></input>
-		<button type="button" onclick="adicionar()">Adicionar</button>				
+		<input id="item" type="text"></input>
+		<button type="button" onclick="adicionar()">Adicionar</button>
+		<button type="button" onclick="remover()">Remover</button>
+	</br>
+	</br>
+		<label>Cesta de frutas</label>
+		<div id="cesta"></div>
 	</body>
 </html>
